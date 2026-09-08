@@ -1,0 +1,38 @@
+data structures are an efficient way to store data
+this is in terms of performance and memory 
+algorithms are a set of instructions 
+we have to understand when to use which data structure
+abstract data type
+    every data type will have some data along with the operations which can be
+        performed on the data
+
+    queue is first in first out
+    stack is last in first out 
+    array is continous and can be accessed using index
+
+array
+    this stores data in continous memory location and return the memory address of 
+        the first data type
+
+    the other elements can be accessed using the index values 
+        first index address + 2 * index values = address of the required data
+
+    we can perform the 
+        read operation - which is finding an element by index
+        search operation - finding the position of the element by the values
+        inserting - at the end, we can add the elements of the array
+        inserting in the middle or begining - we have to move the elements one index
+            to the right 
+        deletion - similar to insertion but will push to the elemenets one index to the 
+            left
+        
+time complexity 
+    number of steps our code takes to run as a function of the input size
+    this is a part of algorithm analysis
+
+    when we do linear search - we have O(n) complexity as this increases linearly
+    when we do binary search - we have O(logn) complextiy as this eliminates data from 
+        consideration
+    
+    similarly, we have different complexities such as 1, sqrt(n), logn, n, nlogn, n^2, n^3, n^n etc.
+    
