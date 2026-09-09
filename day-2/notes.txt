@@ -1,0 +1,14 @@
+quick sort follows divide and conquer approach
+this uses recursion to solve the problem
+best case nlogn, worst case n^2
+pick a pivot element at random
+
+merge sort
+this has the time complexity of nlogn 
+this too follows divide and conquer
+
+linked list consist of two entities, an value and an address 
+the value consist of the value which is present and an address consit of the address of the next element
+while adding any element, we can just replace the null address of the last element by the new address and create another node for next address
+thus linked list is slow but expandable
+the complexity of finding an element is O(n)
