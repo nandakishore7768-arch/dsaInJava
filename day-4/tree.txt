@@ -1,0 +1,28 @@
+a tree can consist of multiple references for a single node
+
+the node where the tree starts is called the root node
+
+the other nodes are called child nodes and the lines which connected through edges
+
+if a node has no child node, then it is called a leaf node
+
+if every node has maximum two nodes, then it is called binary tree
+
+strict binary tree has either 2 child nodes or no child nodes at all
+
+all the leaf nodes should be at the same level -then it is called full binary tree
+
+if the leaf nodes are at the level l and l - 1 only, then it is called complete binary tree
+
+depth is the distance from the root node and height is the distance from its child nodes
+
+height of tree is the same as height of the root node
+
+in traversal, we have pre order traversal, post order traversal, in order traversal
+
+in order - left, root, right 
+
+pre order - root, left, right 
+
+post order - left, right, root
+
